@@ -1,4 +1,4 @@
-# array / list
+# ARRAY / LIST
 # list like array in other programming language, but in python list can store any data types
 list_item = [1, 4.4, 'particle']
 print(type(list_item))
@@ -27,7 +27,7 @@ Output:
 
 """
 
-# tuple
+# TUPLE
 # tuple's like array/list but immutable
 y = (1, "Hikmah", 1+3)
 print(type(y))
@@ -45,7 +45,7 @@ Hikmah
 (1, 'Hikmah', 4)
 """
 
-# set
+# SET
 # set like a array without index. It only keep the unique
 z = {1,2,7,3,3,2,4,6,9, "jjj", "jjjj", "kkk", "jjj"}
 print(type(z))
@@ -71,7 +71,7 @@ intersection = set1.intersection(set2)
 print("Intersection:", intersection)
 
 
-# dicitionary
+# DICTIONARY
 # is like object in other programming language
 particle = {"name": "Hikmah", "age" : 18, 'haveGf' : False}
 
@@ -96,3 +96,46 @@ print(particle)
 # update data in dictionary
 particle["name"] = "Hikmah Aldrin Abdillah"
 print(particle)
+
+
+# CONVERSION BETWEEN DATA TYPES
+# INT -> FLOAT
+print(float(4))
+# output  : 4.0
+
+# FLOAT -> INT
+print(int(3.5))
+# output : 3
+
+# FROM - TO STRING
+print(int("25"))
+print(str(25))
+print(float("25"))
+print(str(25.6))
+
+"""
+Output:
+25
+25
+25.0
+25.6
+"""
+
+# CONVERSION DATASET
+print(set([1,2,3]))
+print(tuple({5,6,7}))
+print(list('hello'))
+
+"""
+Output:
+{1,2,3}
+(5,6,7)
+['h','e','l','l','o']
+"""
+
+# CONVERSION TO DICTIONARY
+print(dict([['name', 'hikmah'],['age', 19]]))
+"""
+Output:
+{name:hikmah, age:19}
+"""
