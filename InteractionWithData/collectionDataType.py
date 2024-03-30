@@ -30,7 +30,7 @@ Output:
 y = (1, "Hikmah", 1+3)
 print(type(y))
 # output : <class 'tuple'>
-y[1] = 'particle'
+# y[1] = 'particle'
 # Error because tuples are immutable
 
 # slicing and indexing in tuple
@@ -42,3 +42,27 @@ Output :
 Hikmah
 (1, 'Hikmah', 4)
 """
+
+# set
+z = {1,2,7,3,3,2,4,6,9}
+print(type(z))
+# print(z[2])
+"""
+Output:
+'set' object is not subscriptable
+"""
+# unordered collection
+
+# set haven't index, set is also unique. each data in set, not duplicated
+print(z)
+# output : {1,2,7,3,3,2,4,6,9}
+
+# set is himpunan in indonesia. set can do the operation like union()/gabungan and intersection/irisan
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+union = set1.union(set2)
+print("Union:", union)
+
+intersection = set1.intersection(set2)
+print("Intersection:", intersection)
