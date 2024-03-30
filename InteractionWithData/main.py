@@ -60,3 +60,9 @@ print(part[2:])
 Output :
 drin
 """
+
+# FORMATTED STRING
+nama = "Hikmah Aldrin Abdillah"
+print(f"Hello My name is {nama}")
+
+# OUTPUT : Hello My name is Hikmah Aldrin Abdillah
