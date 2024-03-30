@@ -32,3 +32,31 @@ s1 = "Hello "+ name +"!"
 print(s1)
 
 # OUTPUT: Hello Particle!
+
+# USE Three double / single quote for store string that more than one line
+multi_line = """
+Hello! 
+My Name is Particle!
+Can i get your number pls ?
+"""
+print(multi_line)
+
+# OUTPUT: Hello! My Name is Particle! Can i get your number pls ?
+
+# GET THE LENGTH OF A STRING AND GET THE CHARACTER OF THEM
+str = 'Particle'
+print(str[2])
+# OUTPUT: r
+# but u can't reassign the substring of that
+
+print(len(str))
+# OUTPUT: 8
+
+# INDEXING AND SLICING In STRING
+part = 'Aldrin'
+print(part[2:])
+
+"""
+Output :
+drin
+"""
