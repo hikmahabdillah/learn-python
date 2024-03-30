@@ -25,3 +25,20 @@ Output:
 ['laptop', 'monitor', 'mouse']
 
 """
+
+# tuple
+y = (1, "Hikmah", 1+3)
+print(type(y))
+# output : <class 'tuple'>
+y[1] = 'particle'
+# Error because tuples are immutable
+
+# slicing and indexing in tuple
+print(y[1])
+print(y[0:3])
+
+"""
+Output : 
+Hikmah
+(1, 'Hikmah', 4)
+"""
