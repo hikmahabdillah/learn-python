@@ -1,4 +1,5 @@
-# array
+# array / list
+# list like array in other programming language, but in python list can store any data types
 list_item = [1, 4.4, 'particle']
 print(type(list_item))
 
@@ -27,6 +28,7 @@ Output:
 """
 
 # tuple
+# tuple's like array/list but immutable
 y = (1, "Hikmah", 1+3)
 print(type(y))
 # output : <class 'tuple'>
@@ -44,7 +46,8 @@ Hikmah
 """
 
 # set
-z = {1,2,7,3,3,2,4,6,9}
+# set like a array without index. It only keep the unique
+z = {1,2,7,3,3,2,4,6,9, "jjj", "jjjj", "kkk", "jjj"}
 print(type(z))
 # print(z[2])
 """
@@ -66,3 +69,30 @@ print("Union:", union)
 
 intersection = set1.intersection(set2)
 print("Intersection:", intersection)
+
+
+# dicitionary
+# is like object in other programming language
+particle = {"name": "Hikmah", "age" : 18, 'haveGf' : False}
+
+print(type(particle))
+# output : class dict
+
+# for access the value of dict, call the key to get the value
+print(particle['name'])
+"""
+output : 
+Hikmah
+"""
+
+# add data in dictionary
+particle['job'] = 'Front End Developer'
+print(particle)
+
+# delete data in dictionary
+del particle['haveGf']
+print(particle)
+
+# update data in dictionary
+particle["name"] = "Hikmah Aldrin Abdillah"
+print(particle)
