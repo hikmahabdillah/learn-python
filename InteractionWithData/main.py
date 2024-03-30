@@ -23,3 +23,12 @@ print(type(z))
   <class 'bool'>
   <class 'bool'>
 """
+
+# STRING
+# String in Python can be defined by using single
+# or double quotes. It represents a sequence of characters.
+name = 'Particle'
+s1 = "Hello "+ name +"!"
+print(s1)
+
+# OUTPUT: Hello Particle!
