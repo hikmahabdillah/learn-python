@@ -22,3 +22,16 @@ print("       particle       ".strip())
 
 # in addition to delete the whitespace, strip can delete the desired word
 print("gogogogoparticleCodegogogogo".strip('go'))
+
+# START/END WITH
+print("Particle Code".startswith("Particle"))
+print("Particle Code".endswith("Code"))
+
+# SPLIT and JOIN STRING
+print(' '.join(['Particle', 'Code', "!"]))
+
+print("Particle Code !".split())
+
+# REPLACE STRING
+string = "Let's be a Front End Developer with Particle Code! I know u can dude!"
+print(string.replace("Code", "Coder"))
