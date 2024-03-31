@@ -35,3 +35,9 @@ print("Particle Code !".split())
 # REPLACE STRING
 string = "Let's be a Front End Developer with Particle Code! I know u can dude!"
 print(string.replace("Code", "Coder"))
+
+# STRING LITERALS
+print("Halo!\nKapan terakhir kali kita bertemu?\nKita bertemu hari Jum\'at yang lalu.")
+
+# RAW STRING
+print(r'Dicoding\nIndonesia')
