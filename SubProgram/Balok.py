@@ -1,4 +1,5 @@
-import functionBalok
+from functionBalok import countHitungVolumeBalok, name
 
-balok_ketiga = functionBalok.countHitungVolumeBalok(4,5,6)
+balok_ketiga = countHitungVolumeBalok(4,5,6)
 print(balok_ketiga)
+print(name)
