@@ -31,3 +31,7 @@ def cetak_info(**kwargs):
     return info
 
 print(cetak_info(name="Hikmah Aldrin Abdillah", age="19", job="Front End Developer"))
+
+# function expression
+count_luas_persegi_panjang = lambda panjang, lebar: panjang*lebar
+print(count_luas_persegi_panjang(5,10))
