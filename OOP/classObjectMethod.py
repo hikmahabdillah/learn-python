@@ -43,7 +43,15 @@ class Mobil:
     @staticmethod
     def intro_mobil():
         print("Ini adalah metode dari kelas Mobil")
+
+    @classmethod
+    def introcls_mobil(cls):
+        print("Ini adalah metode dari kelas Mobil")
         
+Mobil.introcls_mobil()
+mobil_1 = Mobil("white","AldrinCar", 180)
+mobil_1.introcls_mobil()
+
 Mobil.intro_mobil()
 mobil_1 = Mobil("white","AldrinCar", 180)
 mobil_1.intro_mobil()
