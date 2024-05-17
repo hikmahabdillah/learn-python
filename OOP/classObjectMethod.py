@@ -39,6 +39,16 @@ class Mobil:
     def tambah_kecepatan(self):
         self.kecepatan += 10
 
+    # static method
+    @staticmethod
+    def intro_mobil():
+        print("Ini adalah metode dari kelas Mobil")
+        
+Mobil.intro_mobil()
+mobil_1 = Mobil("white","AldrinCar", 180)
+mobil_1.intro_mobil()
+
+# call object method
 mobil_1 = Mobil("Merah", "DicodingCar", 160)
 print("Sebelum ditambahkan: ")
 print(mobil_1.kecepatan)
