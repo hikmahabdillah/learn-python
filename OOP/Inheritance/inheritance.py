@@ -14,6 +14,10 @@ class MobilSport(Mobil):
     def tambah_kecepatan(self): #override
         self.kecepatan += 20
 
+    def super_tambah_kecepatan(self): #super
+        super().tambah_kecepatan()
+        print("Kecepatan Anda meningkat! Hati-Hati!")
+
 # Kelas Mobil Dasar
 mobil_1 = Mobil("Merah", "AlxCar", 160)
 print(mobil_1.kecepatan)
@@ -23,6 +27,8 @@ mobil_sport_1 = MobilSport("Hitam", "AlxSportCar", 160)
 print(mobil_sport_1.kecepatan)
 mobil_sport_1.turbo()
 mobil_sport_1.tambah_kecepatan()
+print(mobil_sport_1.kecepatan)
+mobil_sport_1.super_tambah_kecepatan()
 print(mobil_sport_1.kecepatan)
 
 # Override
