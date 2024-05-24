@@ -1,2 +1,2 @@
 # learn-python
-Learning Python for Machine Learning, Artificial Intelligence, etc
+Learning Basics of Python 
